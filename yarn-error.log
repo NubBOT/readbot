@@ -1,0 +1,53 @@
+Arguments: 
+  /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/share/yarn/bin/yarn.js
+
+PATH: 
+  /data/data/com.termux/files/usr/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.2.0
+
+Platform: 
+  android arm64
+
+Trace: 
+  Error: EPERM: operation not permitted, symlink '../../../../pino/bin.js' -> '/storage/emulated/0/config/store-bot/node_modules/@adiwajshing/baileys/node_modules/.bin/pino'
+
+npm manifest: 
+  {
+    "name": "store-bot",
+    "version": "1.0.0",
+    "description": "-",
+    "main": "start.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "bot-wa",
+      "bot-whatsapp",
+      "multidevice",
+      "multi-device"
+    ],
+    "author": "Thadz",
+    "dependencies": {
+      "@adiwajshing/baileys": "^4.0.1",
+      "@adiwajshing/keyed-db": "^0.2.4",
+      "chalk": "2.4.1",
+      "chalk-animation": "^1.6.0",
+      "colors": "^1.4.0",
+      "fluent-ffmpeg": "^2.1.2",
+      "moment-timezone": "^0.5.34",
+      "node-fetch": "2.6.1",
+      "qrcode-terminal": "^0.12.0",
+      "request": "^2.88.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
